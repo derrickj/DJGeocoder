@@ -41,7 +41,12 @@ If you have an app that need to do this, it takes a surprising amount of code. N
 
 ## Network Requests?! What's going on?
 DJGeocoder uses the [Google Maps Web Services API](http://code.google.com/apis/maps/documentation/geocoding/). This is a good time to mention that you should adhere to Google's [terms of service](http://code.google.com/apis/maps/terms.html#section_10_12) when using this. In a nutshell:
+
 > [...] the Geocoding API may only be used in conjunction with a Google map; geocoding results without displaying them on a map is prohibited.
 
 ## One more thing...
 This isn't really done. There's a lot of work to do. It's quite useable, however. If you find anything wrong, submit an issue. Better yet, fork me and fix it! :)
+
+## iOS 5.0 includes this natively
+This code was written before iOS 5.0 was introduced. If you're targeting
+iOS 5.0 or later, then just use [CLGeocoder](http://developer.apple.com/library/ios/#documentation/CoreLocation/Reference/CLGeocoder_class/Reference/Reference.html). 
